@@ -132,7 +132,7 @@ func (s *Scanner) scanIdent() (tok Token, lit string) {
 		return zcase, buf.String()
 	case "vars":
 		return vars, buf.String()
-	case "break":
+	case "breaks":
 		return break, buf.String()
 	case "while":
 		return while, buf.String()
